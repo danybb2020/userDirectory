@@ -1,0 +1,33 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+.App{
+
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.App-logo{
+height: 35vmin;
+animation: App-logo-spin infinite 20s linear;
+pointer-events: none;
+}
+
+.App-header {
+background-color: rgb(172, 207, 215);
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: medium;
+color: black;
+justify-content: center;
+}
+
+.App-link {
+    color: chocolate;
+}
+
