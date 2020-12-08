@@ -10,8 +10,8 @@ function App() {
         <Wrapper>
           <Header/>
           <Main/>
-           </Wrapper>
-        <Footer />
+        </Wrapper>
+        
       </div>
     
   );

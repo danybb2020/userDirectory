@@ -1,13 +1,13 @@
-import React from "react";
+import React, {Component} from "react";
 import DataTable from "./DataTable";
 import Nav from "./Nav";
-import API from "./API"
+import API from "../utils/api"
 
 import "../styles/DataArea.css";
 
-export default class DataArea extends Comment {
+export default class DataArea extends Component {
     state = {
-users = [{}],
+users : [{}],
 order: "descend",
 filteredUsers: [{}]
 }
@@ -35,7 +35,7 @@ handleSort = heading => {
 
     const sortedUsers = this.state.filteredUsers.sort(compareFnc);
     this.setState ({filteredUsers: sortedUsers});
-
+}
     handleSearchChange = event => {
 
     }
@@ -50,7 +50,7 @@ handleSort = heading => {
         });
     }
 
-}
+
 render () {
     return (
         <>
@@ -58,8 +58,8 @@ render () {
         <div className= "data-area">
             <DataTable  
                 headings= {this.headings}
-                users {this.state.filteredUsers}
-                handleSort= {this.handleSearchChange}
+                users= {this.state.filteredUsers}
+                handleSort= {this.handleSort}
        />
                 </div>
                 </>

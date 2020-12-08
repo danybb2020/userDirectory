@@ -4,10 +4,10 @@ import "../styles/DataBody.css";
 function DataBody ({users}) {
     function formatDate (date) {
         const dateArray = date.split("-");
-        const year = dateArray [0];
-        const month= dateAwway [1];
-        const dayArray = dateArray [2].split("T");
-        const day = dayArray [0];
+        const year = dateArray[0];
+        const month= dateArray[1];
+        const dayArray = dateArray[2].split("T");
+        const day = dayArray[0];
         const formattedDate = [month, day, year].join("-") ; 
         return formattedDate
     }
@@ -15,13 +15,13 @@ function DataBody ({users}) {
 return (
 
      <tbody>
-         {users [0] !== undefined && users[0].name !== undefined ? (
+         {users[0] !== undefined && users[0].name !==undefined? (
             users.mao (({login, name, picture, phone, email, dob}) => {
               return (
                 <tr key = {login.uuid}>
                     <td data-th= "Image" className="align-middle">
                        <img 
-                       src- {picture.medium}
+                       src= {picture.medium}
                        alt={"profile image for " + name.first + " " + name.last}
                        className="img-responsive" 
                     />
@@ -36,7 +36,7 @@ return (
                     </td>
 
                     <td data-th="Email" className="align-middle">
-                        <a href={"mailto:" + email} target= "_blank">
+                        <a href={"mailto:" + email} target="__blank">
                             {email}
                 </a>
                      
