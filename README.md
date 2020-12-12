@@ -8,6 +8,10 @@ Given a table of random users, when the user loads the page, a table of employee
 
 The user is be able to:
 
-- Sort the table by at least one category
+Sort the table by at least one category
 
-- Filter the users by at least one property.
+Filter the users by at least one property.
+
+Command
+npm i
+npm start

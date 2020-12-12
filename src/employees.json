@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Harry Potter",
+    "occupation": "Magician",
+    "hometown": "London",
+    "skills": "Magic",
+    "id": 124
+  },
+  {
+    "name": "Frodo Baggings",
+    "occupation": "Ring wearer",
+    "hometown": "MiddleEarth",
+    "skills": "Eating",
+    "id": 433
+  },
+  {
+    "name": "Percy Jackson",
+    "occupation": "Semigod",
+    "hometown": "New York",
+    "skills": "Water control",
+    "id": 421
+  },
+  {
+    "name": "Thor",
+    "occupation": "Thunder God",
+    "hometown": "Asgard",
+    "skills": "Thunder",
+    "id": 221
+  },
+  {
+    "name": "Hulk",
+    "occupation": "Scientist",
+    "hometown": "England",
+    "skills": "Extreme strenght",
+    "id": 1955
+  },
+  {
+    "name": "Ironman",
+    "occupation": "Billionaire",
+    "hometown": "Los Angeles",
+    "skills": "Armor weapon",
+    "id": 4210
+  },
+  {
+    "name": "Groot",
+    "occupation": "Living tree",
+    "hometown": "Unknown",
+    "skills": "Growing tree",
+    "id": 543
+  },
+  {
+    "name": "Sonic the hedgehog",
+    "occupation": "Runner",
+    "hometown": "unknown",
+    "skills": "Running",
+    "id": 1924
+
+    
+  },
+
+  {
+      "name": "Link",
+      "occupation": "Knight",
+      "hometown": "Hyrule",
+      "skills": "Saving Princesses",
+      "id": 32
+    },
+
+    {
+      "name": "Zelda",
+      "occupation": "Princess",
+      "hometown": "Hyrule",
+      "skills": "Goddess power",
+      "id": 322
+    }
+]
